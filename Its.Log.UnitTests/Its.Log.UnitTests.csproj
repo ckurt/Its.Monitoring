@@ -178,12 +178,6 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Its.Log\Its.Log.csproj">
-      <Project>{870A5A29-7744-41F1-89E7-90300954AD07}</Project>
-      <Name>Its.Log</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="SampleApp.tt">

@@ -82,12 +82,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Its.Log\Its.Log.csproj">
-      <Project>{870a5a29-7744-41f1-89e7-90300954ad07}</Project>
-      <Name>Its.Log</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

@@ -41,6 +41,10 @@
     <Reference Include="FluentAssertions">
       <HintPath>..\packages\FluentAssertions.2.1.0.0\lib\net45\FluentAssertions.dll</HintPath>
     </Reference>
+    <Reference Include="Its.Log, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Its.Log.2.8.3\lib\net40\Its.Log.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -102,10 +106,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Its.Log\Its.Log.csproj">
-      <Project>{870a5a29-7744-41f1-89e7-90300954ad07}</Project>
-      <Name>Its.Log</Name>
-    </ProjectReference>
     <ProjectReference Include="..\Its.Log.Monitoring\Its.Log.Monitoring.csproj">
       <Project>{16720c36-cc74-4884-b13f-e19d9de7d96a}</Project>
       <Name>Its.Log.Monitoring</Name>
